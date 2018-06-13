@@ -1,6 +1,10 @@
+* {
+  border: 1px solid white;
+}
 
 
 /*Universal Styles*/
+
 body, a {
   font-family: "Helvetica", serif;
   color: seashell;
@@ -26,7 +30,7 @@ body {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
-  top: 2px;
+  top: 0px;
   z-index: 1;
   background-color: black;
 }
@@ -43,12 +47,16 @@ body {
   margin-right: 20px;
 }
 
-/* Main Section -- Mission */
+/* Main Section -- Mission Block*/
+
 
 .main {
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  margin-top: -2px;
 }
 
 #mission {
@@ -70,4 +78,25 @@ body {
 .text {
   margin-top: -20px;
   margin-bottom: -20px;
+}
+
+
+/* Main Section -- Featured Tea Block*/
+
+#featured {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.blocktext {
+  width: 1000px;
+}
+
+.block1 img{
+  height: 200px;
+  width: 300px;
 }
