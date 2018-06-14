@@ -47,7 +47,7 @@ body {
 
 
 
-/* Main Section -- Mission Block*/
+/* Main Section -- covers mission/featured/location/contact*/
 
 .main {
   height: auto;
@@ -56,6 +56,10 @@ body {
   align-items: center;
   margin-top: -2px;
 }
+
+
+
+/* Main Section -- Mission Block*/
 
 #mission {
   height: 700px;
@@ -89,7 +93,7 @@ body {
   justify-content: space-around;
   align-content: space-around;
   flex-wrap: wrap;
-  margin-top: 30px;
+  padding-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -120,6 +124,8 @@ body {
 .right2 {
   margin-right: 165px;
 }
+
+
 
 /* Main Section -- Locations*/
 
@@ -156,6 +162,10 @@ body {
 
 /* Main Section -- Contact*/
 
+.contact {
+  height: 200px;
+}
+
 .contact h2 {
   margin-top: 10px;
   margin-bottom: 40px;
@@ -164,3 +174,8 @@ body {
 
 
 /*Footer - Copyrigh Section*/
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
+}
