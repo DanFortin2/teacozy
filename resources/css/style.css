@@ -1,6 +1,3 @@
-* {
-  border: 1px solid white;
-}
 
 
 /*Universal Styles*/
@@ -20,7 +17,8 @@ body {
 }
 
 
-/*header section*/
+
+/*header section -- Navigation Menu*/
 
 .header {
   display: flex;
@@ -47,8 +45,9 @@ body {
   margin-right: 20px;
 }
 
-/* Main Section -- Mission Block*/
 
+
+/* Main Section -- Mission Block*/
 
 .main {
   height: auto;
@@ -80,6 +79,7 @@ body {
 }
 
 
+
 /* Main Section -- Featured Tea Block*/
 
 #featured {
@@ -90,6 +90,7 @@ body {
   align-content: space-around;
   flex-wrap: wrap;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .block1 {
@@ -99,20 +100,18 @@ body {
   height: 260px;
 }
 
-.blocktext {
-  width: 1000px;
-}
-
 .block1 img{
   height: 200px;
   width: 300px;
 }
 
+.blocktext {
+  width: 1000px;
+}
+
 .imgtitles {
   margin-top: 10px;
 }
-
-
 
 .left2 {
   margin-left: 165px;
@@ -120,4 +119,35 @@ body {
 
 .right2 {
   margin-right: 165px;
+}
+
+/* Main Section -- Locations*/
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.imgblocks2 {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  margin-bottom: 20px;
+}
+
+.block2 {
+  width: 300px;
+  height: auto;
+  background-color: black;
+  opacity: 1;
+}
+
+.loctext {
+  margin-bottom: 15px;
 }
